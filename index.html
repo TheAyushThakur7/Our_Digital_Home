@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>For My Divu</title>
+    <title>My Divu - An Apology</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,400;1,400&family=Poppins:wght@300;400&display=swap');
 
@@ -24,7 +24,7 @@
         }
 
         header {
-            height: 80vh;
+            height: 70vh;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -46,6 +46,8 @@
             font-style: italic;
             font-family: 'Playfair Display', serif;
             font-size: 1.2rem;
+            max-width: 600px;
+            color: #7a6a6a;
         }
 
         section {
@@ -57,6 +59,7 @@
             box-shadow: 0 10px 30px rgba(255, 143, 163, 0.1);
             border: 1px solid var(--primary-pink);
             line-height: 1.8;
+            animation: fadeIn 2.5s ease-in;
         }
 
         .chapter-title {
@@ -68,57 +71,48 @@
             margin-bottom: 20px;
         }
 
-        .guilt-text {
+        .highlight-text {
             background-color: #fff0f3;
-            padding: 20px;
+            padding: 25px;
             border-left: 4px solid var(--deep-pink);
             font-style: italic;
-            margin: 20px 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 1.1rem;
+            margin: 30px 0;
+            color: #6b5b5b;
+            border-radius: 0 10px 10px 0;
         }
 
-        .nicknames {
+        .divider-text {
             text-align: center;
             font-family: 'Dancing Script', cursive;
-            font-size: 2.2rem;
+            font-size: 2rem;
             color: var(--deep-pink);
-            margin: 40px 0;
+            margin: 50px 0;
             letter-spacing: 2px;
-        }
-
-        /* Audio Box at the end */
-        .audio-container {
-            text-align: center;
-            background: white;
-            padding: 30px;
-            border-radius: 15px;
-            margin: 20px auto 60px auto;
-            max-width: 500px;
-            border: 2px solid var(--primary-pink);
-        }
-
-        .audio-container h3 {
-            font-family: 'Dancing Script', cursive;
-            margin-bottom: 15px;
-            color: var(--deep-pink);
-            font-size: 1.8rem;
-        }
-
-        audio {
-            width: 100%;
         }
 
         footer {
             text-align: center;
-            padding: 80px 20px;
+            padding: 60px 20px;
             background: var(--primary-pink);
+            font-family: 'Poppins', sans-serif;
+            font-size: 1.1rem;
+            color: var(--text-color);
+        }
+
+        .signature {
             font-family: 'Dancing Script', cursive;
-            font-size: 2rem;
+            font-size: 2.5rem;
+            color: var(--deep-pink);
+            margin-top: 15px;
+            display: block;
         }
 
         .heart {
             color: var(--deep-pink);
             display: inline-block;
-            animation: beat 1s infinite alternate;
+            animation: beat 1.5s infinite alternate;
         }
 
         @keyframes fadeIn {
@@ -127,65 +121,74 @@
         }
 
         @keyframes beat {
-            to { transform: scale(1.2); }
+            to { transform: scale(1.15); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 { font-size: 3rem; }
+            section { margin: 20px; padding: 25px; }
+            .divider-text { font-size: 1.5rem; }
         }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>For My Divu <span class="heart">❤</span></h1>
-        <p class="subtitle">A journey from then, to now, to forever.</p>
+        <h1>My Divu</h1>
+        <p class="subtitle">I've been thinking about everything you've said, and for the first time I'm trying to read it without immediately trying to prove that I've changed or convince you to stay.</p>
     </header>
 
     <section>
-        <div class="chapter-title">Where it all began...</div>
+        <div class="chapter-title">A Genuine Apology</div>
         <p>
-            It started with a simple "Hi" in that Telegram chat. I remember being lonely, just looking for someone to talk to, but I didn't realize that clicking "send" would lead me to the most important person in my life. 
+            I'm sorry. Not just for the things I said, but for making you feel like your words weren't truly reaching me. You kept telling me how you felt, what hurt you, what was missing, and instead of fully understanding your pain, I kept trying to defend myself or explain why things would be different. Looking back, I understand how exhausting that must have been for you.
         </p>
-        <p>
-            We went through shadows before we found the light. I know I wasn't the man you deserved back then. I let my emotions get the best of me, and I hurt the one soul that was kind enough to stay.
-        </p>
-        <div class="guilt-text">
-            "Divu... mereko bhot hee guilt & literally tears aate when i remember mene tumhare sath kya kiya... unn sb wakt pe... i am very sorry.. kash mai unnn sbko nhi krta... sorry..."
+        
+        <div class="highlight-text">
+            "You deserved someone who listened first and spoke later. Too many times I did the opposite."
         </div>
+
+        <p>
+            I'm also sorry for the moments where I was insensitive or disrespectful. Some of the things I said came from panic, frustration, or fear of losing you, but none of that makes them okay. You shouldn't have had to carry the weight of my reactions.
+        </p>
     </section>
 
-    <div class="nicknames">
-        Divu • Meri Jaan • Baby • My Love • Bhondu
+    <div class="divider-text">
+        Understanding • Healing • Gratitude
     </div>
 
     <section>
-        <div class="chapter-title">Your Pure Heart</div>
+        <div class="chapter-title">Your Gift of Love</div>
         <p>
-            You aren't like other girls, Divu. You have a heart that is so rare. The way you check on me for food, the way you genuinely care—it’s something I never expected but now I can't live without. Since I reached out again, things have been real. We are so close now.
+            You once chose to love me with your whole heart. That wasn't something small. It was a gift. And if my actions slowly made you lose faith in us, then I understand why you're hurting today.
+        </p>
+        <p>
+            I don't want this apology to be another attempt to argue that I've changed. Whether you believe I've changed or not is your decision, and I respect that. I just want you to know that I genuinely recognize the pain I caused, and I'm deeply sorry for it.
+        </p>
+        <p>
+            Thank you for every conversation, every smile, every time you cared about me, checked on me, worried about me, and loved me in ways I probably didn't appreciate enough at the time. Those moments will always mean something to me.
         </p>
     </section>
 
     <section>
-        <div class="chapter-title">The Promise</div>
+        <div class="chapter-title">Moving Forward</div>
         <p>
-            I always think about you. You hold a very special place in my heart... <b>itna mene nhi socha kisi aur ke baare mai, jitna aapki care aur pyar krta hu.</b>
+            If, one day, you ever decide to give me another chance, I don't want to earn it through promises. I would want to earn it through consistent actions. And if that day never comes, I'll still be grateful that our paths crossed because you taught me lessons I'll carry for the rest of my life.
         </p>
+
+        <div class="highlight-text">
+            "You once became my safest place, and I'm sorry if I failed to become yours."
+        </div>
+
         <p>
-            I am very serious about our relationship. I don't just want a "now," I want a "forever." I want to end up marrying you and being close to you until my last breath. I want to be your better half, where we are both "home" for each other.
-        </p>
-        <p>
-            I am never, ever going to leave you. I hope you are the last girl I ever date, because with you, I am finally complete.
+            No matter what happens, I sincerely wish you peace, happiness, and a life where you always feel understood, valued, and loved the way you deserve.
         </p>
     </section>
-
-    <div class="audio-container">
-        <h3>A Message From My Heart</h3>
-        <audio controls>
-            <source src="audio12.mp3" type="audio/mpeg">
-            Your browser does not support the audio element.
-        </audio>
-        <p style="font-size: 0.8rem; color: #888; margin-top: 10px;">(Press play to hear my voice)</p>
-    </div>
 
     <footer>
-        Always yours, till the very end. <span class="heart">❤</span>
+        I'm truly sorry, Divu.<br>
+        <span class="signature">— Ayush</span>
     </footer>
 
 </body>
